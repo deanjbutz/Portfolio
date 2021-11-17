@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Dean Butz: A Developer's Story</title>
+</head>
+<body>
+
+    <div id="myModal" class="modal">
+
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Dean Butz</h3>
+            <p>Father. Husband. Problem solver.</p>
+            <p>As a father of two, I take most pride in my children. One may always appreciate their own accomplishments, but the accomplishments of their children seem to outweigh self-admiration. It is the thrill of watching them learn and grow which persuades me to strive to be the best father, husband, and person I can be.</p>
+            <p>After studying chemistry for a year at Wabash College and 3 years at Purdue University, I chose to enter the financial industry and began working at Indiana Members Credit Union. After years of different roles and learning the structure of our core banking system, I migrated to the Informations Systems Department and began learning to code in our core's native programming language, PowerOn. This drove my will to pursue a coding career.</p>
+            <p>Now, as a student of Eleven Fifty Academy, I continue to advance my knowledge and experience with HTML, CSS, and JavaScript, in pursuit of becoming a full stack web developer.</p>
+            <a href="assets/Resume.pdf" download="Dean's Resume">Download my Resume</a>
+        </div>
+    </div>
+
+    <div id="myContact" class="myForm" style="display: none;">
+
+        <div class="form-content">
+            <span class="close2" style="float: right;">&times;</span>
+            <form action="https://formspree.io/f/xwkagwda" method="POST">
+                <div class="label">
+                    <h3>Email Me</h3>
+                    <label>
+                        Your email:
+                        <br>
+                        <input type="email" name="_replyto" placeholder="email@email.com" style="width: 90%;" required>
+                    </label>
+                    <label>
+                        Your message:
+                        <br>
+                        <textarea name="message" placeholder="Enter message here..." style="width: 90%;" required></textarea>
+                    </label>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <article>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-dark" aria-label="Third navbar example">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="navbarsExample03" style>
+                        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" id="myBtn">About Me</button> 
+                            </li>
+                            <li class="nav-item">
+                                <button id="formbutton-button" class="formbutton button nav-link" aria-label="Toggle FormButton Popup" title="Toggle FormButton Popup">Email Me</button>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                                    <li><a class="dropdown-item" href="https://deanjbutz.github.io/Static-Layout/" target="_blank"><img src="assets/Static Layout.jpg" alt="" style="max-width:30px;max-height:30px;"> Static Layout Application</a></li>
+                                    <li><a class="dropdown-item" href="https://codepen.io/deanjbutz/pen/JjyWwKd" target="_blank"><img src="assets/CSS Creature.jpg" alt="" style="max-width:30px;max-height:30px;"> Creature Assignment</a></li>
+                                    <li><a class="dropdown-item" href="https://deanjbutz.github.io/API-Challenge/" target="_blank"><img src="assets/API1.png" alt="" style="max-width:30px;max-height:30px;"> API Project #1</a></li>
+                                    <li><a class="dropdown-item" href="https://api-challenge-2--dbutz.web.app/" target="_blank"><img src="assets/API2.png" alt="" style="width:30px;max-height:30px;">  API Project #2</a></li>
+                                    <li><a class="dropdown-item" href="#" ><img src="assets/Coming Soon.png" alt="" style="max-width:30px;max-height:30px;"> Blue Badge TBA</a></li>
+                                    <li><a class="dropdown-item" href="#" ><img src="assets/Coming Soon.png" alt="" style="max-width:30px;max-height:30px;"> Red Badge TBA</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="card">
+                <div class="card-body">
+                    <div class="image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Walt_Disney_1946.JPG" class="card-img-top" alt="...">
+                    </div>
+                    <div class="quote">
+                            <p class="card-text">"It's kind of fun to do the impossible."</p>
+                        <span>
+                            <h5 class="card-title">Walt Disney</h5>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="py-3">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="footer-nav-item"><a href="https://github.com/deanjbutz" target="_blanke"><img src="assets/GitHub-Mark-Light-64px.png" alt="GitHub"></a></li>
+                <li class="footer-nav-item"><a href="https://www.linkedin.com/in/deanbutz/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" alt="LinkedIn"></a></li>
+                <li class="footer-nav-item"><a href="https://codepen.io/deanjbutz" target="_blank"><img src="assets/Codepen.svg" alt="CodePen"></a></li>
+            </ul>
+            <p class="text-center ">© 2021 Dean Butz</p>
+        </footer>
+
+    </article>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src=></script>
+    <script src="script.js"></script>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+</body>
+</html>
